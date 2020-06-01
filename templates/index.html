@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Anusha's OpenCV Project</title>
+          {{ dropzone.load() }}
+          {{ dropzone.style('border: 2px dashed #0087F7; margin: 10%; min-height: 400px;') }}
+      </head>
+      <body>
+        <h1>Anusha's OpenCV Assignment - Please drop a folder with images named 1.png, 2.png etc. consecutively (can go upto 50.png), and a Template.jpg </h1>
+        {{ dropzone.create(action_view='index') }}
+      </body>
+</html>
